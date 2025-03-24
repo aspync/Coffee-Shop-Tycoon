@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f4e1c1;
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: 10px;
+}
+
+.stats {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ingredient-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+.ingredient-stats p {
+    background: #fff8dc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.section {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.sell-section {
+    background-color: #ffe5b4;
+}
+
+.buy-section {
+    background-color: #d4f4dd;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.sell-button {
+    background-color: #8b4513;
+    color: white;
+}
+
+.sell-button:hover {
+    background-color: #a0522d;
+}
+
+.buy-button {
+    background-color: #2e8b57;
+    color: white;
+}
+
+.buy-button:hover {
+    background-color: #3cb371;
+}
+
+.hidden {
+    display: none;
+}
+
+.sell-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.coffee-section, .latte-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+.sell-section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}

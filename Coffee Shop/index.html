@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Tycoon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Coffee Shop Tycoon</h1>
+        <div class="stats">
+            <p>Balance: <span id="balance">$50.00</span></p>
+        </div>
+
+        <div class="ingredient-stats">
+            <p>Coffee Beans: <span id="beans">10</span></p>
+            <p class="hidden" id="milk-container">Milk: <span id="milk">5</span></p>
+            <p class="hidden" id="sugar-container">Sugar: <span id="sugar">5</span></p>
+            <p class="hidden" id="vanilla-container">Vanilla Syrup: <span id="vanilla">5</span></p>
+            <p class="hidden" id="chocolate-container">Chocolate Syrup: <span id="chocolate">5</span></p>
+            <p class="hidden" id="strawberry-container">Strawberry Syrup: <span id="strawberry">5</span></p>
+        </div>
+
+        <div class="sell-container">
+            <div class="section sell-section coffee-section">
+                <h2>Coffee</h2>
+                <button class="sell-button" id="sell-black-coffee">Sell Black Coffee ($5)</button>
+                <button class="sell-button hidden" id="sell-milk-coffee">Sell Coffee with Milk ($7)</button>
+                <button class="sell-button hidden" id="sell-sweet-coffee">Sell Coffee with Sugar ($7)</button>
+                <button class="sell-button hidden" id="sell-deluxe-coffee">Sell Coffee with Milk & Sugar ($9)</button>
+                <button class="sell-button hidden" id="sell-vanilla-coffee">Sell Vanilla Coffee ($8)</button>
+                <button class="sell-button hidden" id="sell-chocolate-coffee">Sell Chocolate Coffee ($8)</button>
+                <button class="sell-button hidden" id="sell-strawberry-coffee">Sell Strawberry Coffee ($8)</button>
+            </div>
+
+            <div class="section sell-section latte-section">
+                <h2>Lattes</h2>
+                <button class="sell-button hidden" id="sell-regular-latte">Sell Latte ($7)</button>
+                <button class="sell-button hidden" id="sell-vanilla-latte">Sell Vanilla Latte ($10)</button>
+                <button class="sell-button hidden" id="sell-chocolate-latte">Sell Chocolate Latte ($10)</button>
+                <button class="sell-button hidden" id="sell-strawberry-latte">Sell Strawberry Latte ($10)</button>
+            </div>
+        </div>
+
+        <div class="section buy-section">
+            <button class="buy-button" id="buy-beans">Buy Beans ($10 for 5)</button>
+            <button class="buy-button hidden" id="buy-milk">Buy Milk ($5 for 5)</button>
+            <button class="buy-button hidden" id="buy-sugar">Buy Sugar ($5 for 5)</button>
+            <button class="buy-button hidden" id="buy-vanilla">Buy Vanilla Syrup ($6 for 3)</button>
+            <button class="buy-button hidden" id="buy-chocolate">Buy Chocolate Syrup ($6 for 3)</button>
+            <button class="buy-button hidden" id="buy-strawberry">Buy Strawberry Syrup ($6 for 3)</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
